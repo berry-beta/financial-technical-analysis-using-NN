@@ -18,4 +18,4 @@ Futur work:
   - Change the plot type for the time serie : Reccurence Plot, Markov Transition Field, Gramian Angular Field
 
 
-All feedbaks are welcome
+All feedbacks are welcome
