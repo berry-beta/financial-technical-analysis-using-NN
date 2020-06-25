@@ -1,13 +1,18 @@
 # financial-technical-analysis-using-NN
 Using a Convolutional Neural Network to perform technical analysis on stock prices in order to predict the trend.
 
+## Installation note
+Build a docker image with the provided Dockerfile and execute the notebooks and modules inside.
+> I decided to use a docker container because it removes all the pain from switching systems (local machine, Google Cloud VM etc.)
+
+## Details
 The dataset is composed of 30 days window of stock prices and technical indicators (SMA, EMA, MACD, ROC, bollinger bands, stochastic oscillators) plotted as 64x64 RGB pictures. 
 
 The model used is a simplified XCeption model.
 
-This project is a work in progress, so far the  accuracy on the trainning set reaches 90% but does not go higher than 50% on the validation set ... so overfitting
+This project is a work in progress, so far the  accuracy on the trainning set reaches 90% but does not go higher than 50% on the validation set ... so overfitting.
 
-Futur work:
+## Futur work:
 1. Work on the model:
   - Tunning of the the XCeption model
   - Investigate other well known CV models (ResNet)
