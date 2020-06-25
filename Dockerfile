@@ -16,7 +16,7 @@ RUN pip install xgboost
 RUN pip install ta
 RUN pip install pyts
 RUN pip3 install opencv-contrib-python
-RUN pip install pillow
+RUN pip install pandas_profiling
 
 EXPOSE 8888
 ENTRYPOINT ["jupyter", "lab","--ip=0.0.0.0","--allow-root"]
